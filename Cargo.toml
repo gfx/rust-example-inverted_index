@@ -1,6 +1,11 @@
 [package]
-name = "rust-inverted_index"
+name = "inverted_index"
 version = "0.1.0"
 authors = ["FUJI Goro (gfx) <gfuji@cpan.org>"]
 
+[lib]
+name = "inverted_index"
+path = "src/lib.rs"
+
 [dependencies]
+maplit = "^0.1.4"
